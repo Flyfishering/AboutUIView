@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0418AD571E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418AD561E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.m */; };
+		0418AD5C1E8E0B9A007D8A00 /* LayoutAnchorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418AD5B1E8E0B9A007D8A00 /* LayoutAnchorsViewController.m */; };
+		0418AD5F1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418AD5E1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.m */; };
+		0418AD621E8E0BB7007D8A00 /* VisualFormatLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418AD611E8E0BB7007D8A00 /* VisualFormatLanguageViewController.m */; };
+		0418AD681E8E3170007D8A00 /* ProgrammaticallyCreatingConstraints.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0418AD671E8E3170007D8A00 /* ProgrammaticallyCreatingConstraints.xib */; };
 		0441D3191DF3C5880031D599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D3181DF3C5880031D599 /* main.m */; };
 		0441D31C1DF3C5880031D599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D31B1DF3C5880031D599 /* AppDelegate.m */; };
-		0441D31F1DF3C5880031D599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D31E1DF3C5880031D599 /* ViewController.m */; };
 		0441D3221DF3C5880031D599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441D3201DF3C5880031D599 /* Main.storyboard */; };
 		0441D3241DF3C5880031D599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0441D3231DF3C5880031D599 /* Assets.xcassets */; };
 		0441D3271DF3C5880031D599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441D3251DF3C5880031D599 /* LaunchScreen.storyboard */; };
 		0441D3321DF3C5880031D599 /* AboutUIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D3311DF3C5880031D599 /* AboutUIViewTests.m */; };
 		0441D33D1DF3C5880031D599 /* AboutUIViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D33C1DF3C5880031D599 /* AboutUIViewUITests.m */; };
+		0441D34C1DF3C6000031D599 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D34B1DF3C6000031D599 /* HomeTableViewController.m */; };
+		0441D3571DF3C7D40031D599 /* DrawRectMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D3551DF3C7D40031D599 /* DrawRectMethodViewController.m */; };
+		0441D3581DF3C7D40031D599 /* DrawRectMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0441D3561DF3C7D40031D599 /* DrawRectMethodViewController.xib */; };
+		0441D35B1DF3CF8B0031D599 /* DrawRectDemoOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D35A1DF3CF8B0031D599 /* DrawRectDemoOneView.m */; };
+		0441D3631DF3EE4F0031D599 /* ResizableImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D3611DF3EE4F0031D599 /* ResizableImageViewController.m */; };
+		0441D3641DF3EE4F0031D599 /* ResizableImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0441D3621DF3EE4F0031D599 /* ResizableImageViewController.xib */; };
+		0441D36C1DF40F7B0031D599 /* BoundsFrameCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D36A1DF40F7B0031D599 /* BoundsFrameCenterViewController.m */; };
+		0441D36D1DF40F7B0031D599 /* BoundsFrameCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0441D36B1DF40F7B0031D599 /* BoundsFrameCenterViewController.xib */; };
+		0441D3751DF460530031D599 /* AutoLayout_VFLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441D3731DF460530031D599 /* AutoLayout_VFLViewController.m */; };
+		0441D3761DF460530031D599 /* AutoLayout_VFLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0441D3741DF460530031D599 /* AutoLayout_VFLViewController.xib */; };
+		04CE458D1E7B92430035BBC9 /* ConvertingCoordinatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE458C1E7B92430035BBC9 /* ConvertingCoordinatesViewController.m */; };
+		04D9CD761E725B7300F80E30 /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9CD751E725B7300F80E30 /* AutoLayoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0418AD551E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgrammaticallyCreatingConstraints.h; sourceTree = "<group>"; };
+		0418AD561E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgrammaticallyCreatingConstraints.m; sourceTree = "<group>"; };
+		0418AD5A1E8E0B9A007D8A00 /* LayoutAnchorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutAnchorsViewController.h; sourceTree = "<group>"; };
+		0418AD5B1E8E0B9A007D8A00 /* LayoutAnchorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutAnchorsViewController.m; sourceTree = "<group>"; };
+		0418AD5D1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLayoutConstraintViewController.h; sourceTree = "<group>"; };
+		0418AD5E1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSLayoutConstraintViewController.m; sourceTree = "<group>"; };
+		0418AD601E8E0BB7007D8A00 /* VisualFormatLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualFormatLanguageViewController.h; sourceTree = "<group>"; };
+		0418AD611E8E0BB7007D8A00 /* VisualFormatLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualFormatLanguageViewController.m; sourceTree = "<group>"; };
+		0418AD671E8E3170007D8A00 /* ProgrammaticallyCreatingConstraints.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgrammaticallyCreatingConstraints.xib; sourceTree = "<group>"; };
 		0441D3141DF3C5880031D599 /* AboutUIView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutUIView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441D3181DF3C5880031D599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0441D31A1DF3C5880031D599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0441D31B1DF3C5880031D599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0441D31D1DF3C5880031D599 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0441D31E1DF3C5880031D599 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0441D3211DF3C5880031D599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0441D3231DF3C5880031D599 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0441D3261DF3C5880031D599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +74,26 @@
 		0441D3381DF3C5880031D599 /* AboutUIViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutUIViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441D33C1DF3C5880031D599 /* AboutUIViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUIViewUITests.m; sourceTree = "<group>"; };
 		0441D33E1DF3C5880031D599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0441D34A1DF3C6000031D599 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		0441D34B1DF3C6000031D599 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		0441D3541DF3C7D40031D599 /* DrawRectMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectMethodViewController.h; sourceTree = "<group>"; };
+		0441D3551DF3C7D40031D599 /* DrawRectMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectMethodViewController.m; sourceTree = "<group>"; };
+		0441D3561DF3C7D40031D599 /* DrawRectMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawRectMethodViewController.xib; sourceTree = "<group>"; };
+		0441D3591DF3CF8A0031D599 /* DrawRectDemoOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawRectDemoOneView.h; sourceTree = "<group>"; };
+		0441D35A1DF3CF8B0031D599 /* DrawRectDemoOneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawRectDemoOneView.m; sourceTree = "<group>"; };
+		0441D3601DF3EE4F0031D599 /* ResizableImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableImageViewController.h; sourceTree = "<group>"; };
+		0441D3611DF3EE4F0031D599 /* ResizableImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableImageViewController.m; sourceTree = "<group>"; };
+		0441D3621DF3EE4F0031D599 /* ResizableImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResizableImageViewController.xib; sourceTree = "<group>"; };
+		0441D3691DF40F7B0031D599 /* BoundsFrameCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundsFrameCenterViewController.h; sourceTree = "<group>"; };
+		0441D36A1DF40F7B0031D599 /* BoundsFrameCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoundsFrameCenterViewController.m; sourceTree = "<group>"; };
+		0441D36B1DF40F7B0031D599 /* BoundsFrameCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoundsFrameCenterViewController.xib; sourceTree = "<group>"; };
+		0441D3721DF460530031D599 /* AutoLayout_VFLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayout_VFLViewController.h; sourceTree = "<group>"; };
+		0441D3731DF460530031D599 /* AutoLayout_VFLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_VFLViewController.m; sourceTree = "<group>"; };
+		0441D3741DF460530031D599 /* AutoLayout_VFLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayout_VFLViewController.xib; sourceTree = "<group>"; };
+		04CE458B1E7B92430035BBC9 /* ConvertingCoordinatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertingCoordinatesViewController.h; sourceTree = "<group>"; };
+		04CE458C1E7B92430035BBC9 /* ConvertingCoordinatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertingCoordinatesViewController.m; sourceTree = "<group>"; };
+		04D9CD741E725B7300F80E30 /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		04D9CD751E725B7300F80E30 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +121,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0418AD511E8E0A05007D8A00 /* ProgrammaticallyCreatingConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				0418AD521E8E0A05007D8A00 /* LayoutAnchors */,
+				0418AD531E8E0A05007D8A00 /* NSLayoutConstraint */,
+				0418AD541E8E0A05007D8A00 /* VisualFormatLanguage */,
+				0418AD551E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.h */,
+				0418AD561E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.m */,
+				0418AD671E8E3170007D8A00 /* ProgrammaticallyCreatingConstraints.xib */,
+			);
+			path = ProgrammaticallyCreatingConstraints;
+			sourceTree = "<group>";
+		};
+		0418AD521E8E0A05007D8A00 /* LayoutAnchors */ = {
+			isa = PBXGroup;
+			children = (
+				0418AD5A1E8E0B9A007D8A00 /* LayoutAnchorsViewController.h */,
+				0418AD5B1E8E0B9A007D8A00 /* LayoutAnchorsViewController.m */,
+			);
+			path = LayoutAnchors;
+			sourceTree = "<group>";
+		};
+		0418AD531E8E0A05007D8A00 /* NSLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				0418AD5D1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.h */,
+				0418AD5E1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.m */,
+			);
+			path = NSLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		0418AD541E8E0A05007D8A00 /* VisualFormatLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				0418AD601E8E0BB7007D8A00 /* VisualFormatLanguageViewController.h */,
+				0418AD611E8E0BB7007D8A00 /* VisualFormatLanguageViewController.m */,
+			);
+			path = VisualFormatLanguage;
+			sourceTree = "<group>";
+		};
 		0441D30B1DF3C5880031D599 = {
 			isa = PBXGroup;
 			children = (
@@ -101,15 +184,22 @@
 		0441D3161DF3C5880031D599 /* AboutUIView */ = {
 			isa = PBXGroup;
 			children = (
+				0418AD511E8E0A05007D8A00 /* ProgrammaticallyCreatingConstraints */,
+				04CE458A1E7B92310035BBC9 /* ConvertingCoordinates */,
+				04D9CD731E725B4500F80E30 /* AutoLayout */,
+				0441D36E1DF460310031D599 /* AutoLayout_VFL */,
+				0441D3651DF40F620031D599 /* BoundsFrameCenter */,
+				0441D35C1DF3EE330031D599 /* ResizableImage */,
+				0441D34D1DF3C7820031D599 /* DrawRectMethod */,
 				0441D31A1DF3C5880031D599 /* AppDelegate.h */,
 				0441D31B1DF3C5880031D599 /* AppDelegate.m */,
-				0441D31D1DF3C5880031D599 /* ViewController.h */,
-				0441D31E1DF3C5880031D599 /* ViewController.m */,
 				0441D3201DF3C5880031D599 /* Main.storyboard */,
 				0441D3231DF3C5880031D599 /* Assets.xcassets */,
 				0441D3251DF3C5880031D599 /* LaunchScreen.storyboard */,
 				0441D3281DF3C5880031D599 /* Info.plist */,
 				0441D3171DF3C5880031D599 /* Supporting Files */,
+				0441D34A1DF3C6000031D599 /* HomeTableViewController.h */,
+				0441D34B1DF3C6000031D599 /* HomeTableViewController.m */,
 			);
 			path = AboutUIView;
 			sourceTree = "<group>";
@@ -138,6 +228,162 @@
 				0441D33E1DF3C5880031D599 /* Info.plist */,
 			);
 			path = AboutUIViewUITests;
+			sourceTree = "<group>";
+		};
+		0441D34D1DF3C7820031D599 /* DrawRectMethod */ = {
+			isa = PBXGroup;
+			children = (
+				0441D34E1DF3C7820031D599 /* Models */,
+				0441D34F1DF3C7820031D599 /* ViewControllers */,
+				0441D3501DF3C7820031D599 /* Views */,
+			);
+			path = DrawRectMethod;
+			sourceTree = "<group>";
+		};
+		0441D34E1DF3C7820031D599 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0441D34F1DF3C7820031D599 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0441D3541DF3C7D40031D599 /* DrawRectMethodViewController.h */,
+				0441D3551DF3C7D40031D599 /* DrawRectMethodViewController.m */,
+				0441D3561DF3C7D40031D599 /* DrawRectMethodViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0441D3501DF3C7820031D599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0441D3591DF3CF8A0031D599 /* DrawRectDemoOneView.h */,
+				0441D35A1DF3CF8B0031D599 /* DrawRectDemoOneView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0441D35C1DF3EE330031D599 /* ResizableImage */ = {
+			isa = PBXGroup;
+			children = (
+				0441D35D1DF3EE330031D599 /* models */,
+				0441D35E1DF3EE330031D599 /* ViewControllers */,
+				0441D35F1DF3EE330031D599 /* Views */,
+			);
+			path = ResizableImage;
+			sourceTree = "<group>";
+		};
+		0441D35D1DF3EE330031D599 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0441D35E1DF3EE330031D599 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0441D3601DF3EE4F0031D599 /* ResizableImageViewController.h */,
+				0441D3611DF3EE4F0031D599 /* ResizableImageViewController.m */,
+				0441D3621DF3EE4F0031D599 /* ResizableImageViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0441D35F1DF3EE330031D599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0441D3651DF40F620031D599 /* BoundsFrameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				0441D3661DF40F620031D599 /* Models */,
+				0441D3671DF40F620031D599 /* ViewControllers */,
+				0441D3681DF40F620031D599 /* Views */,
+			);
+			path = BoundsFrameCenter;
+			sourceTree = "<group>";
+		};
+		0441D3661DF40F620031D599 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0441D3671DF40F620031D599 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0441D3691DF40F7B0031D599 /* BoundsFrameCenterViewController.h */,
+				0441D36A1DF40F7B0031D599 /* BoundsFrameCenterViewController.m */,
+				0441D36B1DF40F7B0031D599 /* BoundsFrameCenterViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0441D3681DF40F620031D599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0441D36E1DF460310031D599 /* AutoLayout_VFL */ = {
+			isa = PBXGroup;
+			children = (
+				0441D36F1DF460310031D599 /* Models */,
+				0441D3701DF460310031D599 /* ViewControllers */,
+				0441D3711DF460310031D599 /* Views */,
+			);
+			path = AutoLayout_VFL;
+			sourceTree = "<group>";
+		};
+		0441D36F1DF460310031D599 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0441D3701DF460310031D599 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0441D3721DF460530031D599 /* AutoLayout_VFLViewController.h */,
+				0441D3731DF460530031D599 /* AutoLayout_VFLViewController.m */,
+				0441D3741DF460530031D599 /* AutoLayout_VFLViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0441D3711DF460310031D599 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04CE458A1E7B92310035BBC9 /* ConvertingCoordinates */ = {
+			isa = PBXGroup;
+			children = (
+				04CE458B1E7B92430035BBC9 /* ConvertingCoordinatesViewController.h */,
+				04CE458C1E7B92430035BBC9 /* ConvertingCoordinatesViewController.m */,
+			);
+			path = ConvertingCoordinates;
+			sourceTree = "<group>";
+		};
+		04D9CD731E725B4500F80E30 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				04D9CD741E725B7300F80E30 /* AutoLayoutViewController.h */,
+				04D9CD751E725B7300F80E30 /* AutoLayoutViewController.m */,
+			);
+			path = AutoLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +496,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0441D3271DF3C5880031D599 /* LaunchScreen.storyboard in Resources */,
+				0441D3761DF460530031D599 /* AutoLayout_VFLViewController.xib in Resources */,
 				0441D3241DF3C5880031D599 /* Assets.xcassets in Resources */,
+				0441D3581DF3C7D40031D599 /* DrawRectMethodViewController.xib in Resources */,
+				0441D3641DF3EE4F0031D599 /* ResizableImageViewController.xib in Resources */,
+				0418AD681E8E3170007D8A00 /* ProgrammaticallyCreatingConstraints.xib in Resources */,
+				0441D36D1DF40F7B0031D599 /* BoundsFrameCenterViewController.xib in Resources */,
 				0441D3221DF3C5880031D599 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,8 +527,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0441D31F1DF3C5880031D599 /* ViewController.m in Sources */,
 				0441D31C1DF3C5880031D599 /* AppDelegate.m in Sources */,
+				0418AD5F1E8E0BA6007D8A00 /* NSLayoutConstraintViewController.m in Sources */,
+				0441D36C1DF40F7B0031D599 /* BoundsFrameCenterViewController.m in Sources */,
+				0441D3571DF3C7D40031D599 /* DrawRectMethodViewController.m in Sources */,
+				0418AD5C1E8E0B9A007D8A00 /* LayoutAnchorsViewController.m in Sources */,
+				0441D3631DF3EE4F0031D599 /* ResizableImageViewController.m in Sources */,
+				0441D3751DF460530031D599 /* AutoLayout_VFLViewController.m in Sources */,
+				0418AD571E8E0A16007D8A00 /* ProgrammaticallyCreatingConstraints.m in Sources */,
+				0441D34C1DF3C6000031D599 /* HomeTableViewController.m in Sources */,
+				0418AD621E8E0BB7007D8A00 /* VisualFormatLanguageViewController.m in Sources */,
+				04D9CD761E725B7300F80E30 /* AutoLayoutViewController.m in Sources */,
+				04CE458D1E7B92430035BBC9 /* ConvertingCoordinatesViewController.m in Sources */,
+				0441D35B1DF3CF8B0031D599 /* DrawRectDemoOneView.m in Sources */,
 				0441D3191DF3C5880031D599 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +776,7 @@
 				0441D3431DF3C5880031D599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0441D3441DF3C5880031D599 /* Build configuration list for PBXNativeTarget "AboutUIViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +785,7 @@
 				0441D3461DF3C5880031D599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0441D3471DF3C5880031D599 /* Build configuration list for PBXNativeTarget "AboutUIViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +794,7 @@
 				0441D3491DF3C5880031D599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
